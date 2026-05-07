@@ -23,13 +23,13 @@ Large spectral matrices were stored using Zarr to enable chunked, out-of-core co
 
 ### Dimensionality Reduction
 Truncated SVD was used as a scalable approximation to PCA for sparse, high-dimensional MSI data.
- ![Pixel Reconstruction using Truncated SVD](<Visualizations\Pixel 49760 reconstruction.png>)
- ![Pixel Reconstruction Zoomed In](<Visualizations\Pixel49760 reconstruction 700-705.png>)
+ ![Pixel Reconstruction using Truncated SVD](<Visualizations/Pixel 49760 reconstruction.png>)
+ ![Pixel Reconstruction Zoomed In](<Visualizations/Pixel49760 reconstruction 700-705.png>)
 
 ### Clustering
 K-Means clustering was applied in latent space to identify spatially coherent tissue regions.
 Only needed the first five components.
- ![Elbow Plot](\Visualizations\GoodElbowPlot.png)
+ ![Elbow Plot](\Visualizations/GoodElbowPlot.png)
 
 ### Visualization
 UMAP embeddings were generated to visualize nonlinear relationships between spectra in low-dimensional space.
