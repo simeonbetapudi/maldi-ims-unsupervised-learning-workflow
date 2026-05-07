@@ -29,7 +29,7 @@ Truncated SVD was used as a scalable approximation to PCA for sparse, high-dimen
 ### Clustering
 K-Means clustering was applied in latent space to identify spatially coherent tissue regions.
 Only needed the first five components.
- ![Elbow Plot](\Visualizations/GoodElbowPlot.png)
+ ![Elbow Plot](Visualizations/GoodElbowPlot.png)
 
 ### Visualization
 UMAP embeddings were generated to visualize nonlinear relationships between spectra in low-dimensional space.
